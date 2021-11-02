@@ -7,6 +7,6 @@ repository = "https://github.com/Alonely0/tinytest/"
 version = "0.1.0"
 edition = "2021"
 categories = ["no-std", "rust-patterns"]
-keywords = ["no_std", "test", "unit", "unit test", "unit tests"]
+keywords = ["no_std", "test", "unit", "unit_test", "unit_tests"]
 
 [dependencies]
