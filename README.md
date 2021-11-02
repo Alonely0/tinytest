@@ -29,7 +29,7 @@ unit_test!(test2, || {
         some_other_function_in_scope(73)
     )
 }, (
-    "xpected outpu".to_string(),
+    "expected output".to_string(),
     21
     )
 )
@@ -52,8 +52,8 @@ mod test2 {
                     some_other_function_in_scope(73)
                 )
             }, (
-                c.collect::<String>(),
-                some_other_function_in_scope(73)
+                "expected output".to_string(),
+                21
             )
         );
     }
